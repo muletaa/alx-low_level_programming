@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _strncat - cocatenate two strings but add inputted number of bytes
  * @dest: string to be appended upon
