@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * _puts_recursion - ptints a string
- * @s: pointer block of memory to fill
- * Return: void
+ * _puts_recursion - ptints a string followed by a new line.
+ * @s: pointer to string.
+ * Return: void.
  */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		_putchar('\n);
+		_putchar('\n');
 		return;
 	}
 	_putchar(*s);
