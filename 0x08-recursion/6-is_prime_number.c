@@ -27,7 +27,7 @@ int helperFunction(int num, int i)
 
 /**
  * is_prime_number - checks if number is prime or not
- * @num: number to be checked
+ * @n: number to be checked
  *
  * Return: 1 if number is prime
  * 0 if number is not prime
@@ -40,6 +40,6 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		return ((helperFunction(n, 2));
+		return (helperFunction(n, 2));
 	}
 }
