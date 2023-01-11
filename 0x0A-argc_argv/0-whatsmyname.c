@@ -11,7 +11,7 @@
  *
  * Return: this return to 0
  */
-it main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	(void)argc;
