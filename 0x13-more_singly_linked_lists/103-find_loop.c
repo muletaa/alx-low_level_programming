@@ -24,6 +24,7 @@ listint_t *find_listint_loop(listint_t *head)
 			prev =  p2;
 			while (1)
 			{
+
 				p2 = prev;
 				while (p2->next != head && p2->next != prev)
 				{
@@ -37,6 +38,5 @@ listint_t *find_listint_loop(listint_t *head)
 			return (p2->next);
 		}
 	}
-
 	return (NULL);
 }
